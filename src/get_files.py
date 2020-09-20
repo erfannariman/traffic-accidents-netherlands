@@ -17,7 +17,7 @@ class GetFiles:
         """
         Returns
         -------
-        retrieved download inks for the csv's.
+        retrieved download links for the csv's.
         """
         r = requests.get(self.url)
         soup = BeautifulSoup(r.text, "html.parser")
