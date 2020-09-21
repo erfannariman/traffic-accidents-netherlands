@@ -38,6 +38,3 @@ class GetFiles:
             file_name = link.split("/")[-1]
             request.urlretrieve(link, os.path.join(self.data_dir, file_name))
 
-
-
-
